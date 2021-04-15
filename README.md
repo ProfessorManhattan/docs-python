@@ -1,3 +1,9 @@
-# Python
+# Python Package Documentation
 
-Documentation partials for Python packages
+This repository contains documentation partials written in Markdown used for generating the documentation for our various Python package repositories.
+
+You can re-build the documentation by running the following command in the parent repository's root folder:
+
+```
+bash .update.sh
+```
