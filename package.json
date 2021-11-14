@@ -1,18 +1,18 @@
 {
   "private": false,
-  "name": "@mblabs/docs-go",
+  "name": "@mblabs/docs-python",
   "version": "0.0.1",
-  "description": "Documentation partials used to generate documentation for Go projects",
+  "description": "Documentation partials used to generate documentation for Python projects",
   "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
   "homepage": "https://megabyte.space",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProfessorManhattan/docs-go.git"
+    "url": "git+https://github.com/ProfessorManhattan/docs-python.git"
   },
   "bugs": {
     "email": "help@megabyte.space",
-    "url": "https://gitlab.com/megabyte-labs/documentation/go/-/issues"
+    "url": "https://gitlab.com/megabyte-labs/documentation/python/-/issues"
   },
   "type": "module",
   "scripts": {
@@ -37,17 +37,17 @@
     "handlebars-helpers": "^0.10.0"
   },
   "keywords": [
+    "cli",
     "common",
     "docs",
     "documentation",
-    "python",
-    "pypi",
-    "cli",
     "megabytelabs",
     "npm",
     "package",
     "partials",
     "professormanhattan",
+    "pypi",
+    "python",
     "shared"
   ],
   "engines": {
