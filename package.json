@@ -1,5 +1,5 @@
 {
-  "private": false,
+  "private": "false",
   "name": "@mblabs/docs-python",
   "version": "0.0.1",
   "description": "Documentation partials used to generate documentation for Python projects",
