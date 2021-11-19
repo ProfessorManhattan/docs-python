@@ -1,9 +1,9 @@
-{{ load:.modules/docs/readme/header.md }}
-{{ load:.modules/docs/readme/subheader.md }}
-{{ load:.modules/docs/readme/quick-description.md }}
+{{ load:.config/docs/readme/header.md }}
+{{ load:.config/docs/readme/subheader.md }}
+{{ load:.config/docs/readme/quick-description.md }}
 {{ template:toc }}
-{{ load:.modules/docs/readme/overview.md }}
-{{ load:.modules/docs/readme/requirements.md }}
-{{ load:.modules/docs/readme/example.md }}
-{{ load:.modules/docs/readme/contributing-details.md }}
-{{ load:.modules/docs/readme/license.md }}
+{{ load:.config/docs/readme/overview.md }}
+{{ load:.config/docs/readme/requirements.md }}
+{{ load:.config/docs/readme/example.md }}
+{{ load:.config/docs/readme/contributing-details.md }}
+{{ load:.config/docs/readme/license.md }}

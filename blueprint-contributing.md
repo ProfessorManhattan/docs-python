@@ -1,5 +1,5 @@
-{{ load:.modules/docs/contributing/header.md }}
+{{ load:.config/docs/contributing/header.md }}
 {{ template:toc }}
-{{ load:.modules/docs/contributing/code-of-conduct.md }}
-{{ load:.modules/docs/contributing/overview.md }}
-{{ load:.modules/docs/contributing/pull-requests.md }}
+{{ load:.config/docs/contributing/code-of-conduct.md }}
+{{ load:.config/docs/contributing/overview.md }}
+{{ load:.config/docs/contributing/pull-requests.md }}
