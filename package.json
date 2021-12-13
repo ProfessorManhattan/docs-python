@@ -66,7 +66,7 @@
     "gitlab_group_id": "11096751",
     "gitlab_project_id": "25900288",
     "group": "documentation",
-    "name": "Python Documentation",
+    "name": "Python Docs",
     "overview": "This repository contains documentation partials used to generate documentation for Python projects. It uses the partials in conjunction with customizable variables to generate unique documentation. It also allows us to use custom formats based on the type of Python project. When this project is updated, the changes are propagated to the [Python common files repository](https://gitlab.com/megabyte-labs/common/python). From there, common files and documentation are propagated to individual Python projects. By doing this, we are able to keep documentation, configurations, and common files up-to-date from a central location.",
     "repository": {
       "github": "https://github.com/ProfessorManhattan/docs-python",
