@@ -40,13 +40,13 @@
   "dependencies": {},
   "optionalDependencies": {},
   "devDependencies": {
-    "@commitlint/config-conventional": "latest",
     "eslint-config-strict-mode": "latest",
     "git-cz-emoji": "latest",
-    "handlebars-helpers": "latest",
     "prettier-config-sexy-mode": "latest",
     "semantic-release-config": "latest",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "@commitlint/config-conventional": "latest",
+    "handlebars-helpers": "latest"
   },
   "keywords": [
     "cli",
@@ -83,7 +83,7 @@
     "name": "Python Docs",
     "overview": "This repository contains documentation partials used to generate documentation for Python projects. It uses the partials in conjunction with customizable variables to generate unique documentation. It also allows us to use custom formats based on the type of Python project. When this project is updated, the changes are propagated to the [Python common files repository](https://gitlab.com/megabyte-labs/common/python). From there, common files and documentation are propagated to individual Python projects. By doing this, we are able to keep documentation, configurations, and common files up-to-date from a central location.",
     "repository": {
-      "github": "https://github.com/ProfessorManhattan/docs-python",
+      "github": "https://github.com/megabyte-labs/docs-python",
       "gitlab": "https://gitlab.com/megabyte-labs/documentation/python"
     },
     "slug": "docs-python",
@@ -101,9 +101,7 @@
     "showAuthor": true
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
+    "extends": [],
     "helpUrl": "https://megabyte.space/docs/contributing/commits"
   },
   "eslintConfig": {
