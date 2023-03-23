@@ -24,19 +24,19 @@
     <img alt="Version: {{ pkg.version }}" src="https://img.shields.io/badge/version-{{ pkg.version }}-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAACNJREFUCNdjIACY//+BEp9hhM3hAzYQwoBIAqEDYQrCZLwAAGlFKxU1nF9cAAAAAElFTkSuQmCC&cacheSeconds=2592000&style={{ alt_badge_style }}" />
   </a>
   <a title="Build status on GitLab" href="{{ repository.gitlab }}{{ repository.location.commits.gitlab }}" target="_blank">
-    <img alt="GitLab build status" src="https://img.shields.io/gitlab/pipeline-status/{{ repository.group.python_cli_path }}/{{ slug }}?branch=master&label=build&logo=gitlab&style={{ alt_badge_style }}">
+    <img alt="GitLab build status" src="https://img.shields.io/gitlab/pipeline-status/{{ repository.group.python_cli_path }}/{{ slug }}?branch=master&label=build&logo=gitlab&style={{ alt_badge_style }}" />
   </a>
   <a title="Test coverage report" href="{{ repository.gitlab }}{{ repository.location.commits.gitlab }}" target="_blank">
-    <img alt="Coverage status" src="https://img.shields.io/gitlab/coverage/{{ repository.group.python_cli_path }}/{{ slug }}/master/?label=coverage&logo=pytest&style={{ alt_badge_style }}">
+    <img alt="Coverage status" src="https://img.shields.io/gitlab/coverage/{{ repository.group.python_cli_path }}/{{ slug }}/master/?label=coverage&logo=pytest&style={{ alt_badge_style }}" />
   </a>
   <a title="Documentation" href="{{ link.docs }}/{{ group }}" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?logo=readthedocs&style={{ alt_badge_style }}" />
   </a>
   <a title="Supported Python versions" href="https://pypi.org/project/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/" target="_blank">
-    <img alt="Python versions" src="https://img.shields.io/pypi/pyversions/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/?label=python&logo=python&style={{ alt_badge_style }}">
+    <img alt="Python versions" src="https://img.shields.io/pypi/pyversions/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/?label=python&logo=python&style={{ alt_badge_style }}" />
   </a>
   <a title="PyPi status" href="https://pypi.org/project/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/" target="_blank">
-    <img alt="Status" src="https://img.shields.io/pypi/status/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/?label=status&logo=pypi&style={{ alt_badge_style }}">
+    <img alt="Status" src="https://img.shields.io/pypi/status/{{(if customPyPiPackageName customPyPiPackageName (append repository.prefix.github slug))}}/?label=status&logo=pypi&style={{ alt_badge_style }}" />
   </a>
   <a title="License: {{ license }}" href="{{ repository.github }}{{ repository.location.license.github }}" target="_blank">
     <img alt="License: {{ license }}" src="https://img.shields.io/badge/license-{{ license }}-yellow.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAHpJREFUCNdjYOD/wMDAUP+PgYHxhzwDA/MB5gMM7AwMDxj4GBgKGGQYGCyAEEgbMDDwAAWAwmk8958xpIOI5zKH2RmOyhxmZjguAiKmgIgtQOIYmFgCIp4AlaQ9OczGkJYCJEAGgI0CGwo2HmwR2Eqw5SBnNIAdBHYaAJb6KLM15W/CAAAAAElFTkSuQmCC&style={{ alt_badge_style }}" />
